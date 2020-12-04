@@ -52,8 +52,8 @@ export default {
       });
   },
   watch: {
-    searchWatcher: function( to ){
-      console.log(to)
+    searchWatcher: function(to) {
+      console.log(to);
     }
   }
 };
@@ -61,15 +61,19 @@ export default {
 
 <template>
   <div id="dashboard">
-    <v-row id="dashboard" v-if="this.searchWatcher == '' || this.searchWatcher == null ">
+    <v-row
+      id="dashboard"
+      v-if="this.searchWatcher == '' || this.searchWatcher == null"
+    >
       <v-col>
         <v-card>
           <h2>Países da América</h2>
           <v-data-table
+            id="countriesList"
             :headers="headers"
             :items="paises"
             item-key="name"
-            class="elevation-1"
+            class="elevation-1 table_tr_hover"
             @click:row="openMap"
             hide-default-footer
             disable-pagination
@@ -79,7 +83,10 @@ export default {
       </v-col>
       <CountryMap :country="mapSellected" />
     </v-row>
-    <v-row id="searchContent" v-if="this.searchWatcher != '' && this.searchWatcher != null">
+    <v-row
+      id="searchContent"
+      v-if="this.searchWatcher != '' && this.searchWatcher != null"
+    >
       <search-result></search-result>
     </v-row>
   </div>
@@ -90,5 +97,9 @@ export default {
   .v-sheet.v-card {
     padding: 25px;
   }
+}
+
+.table_tr_hover:hover{
+  cursor: pointer!important;
 }
 </style>
