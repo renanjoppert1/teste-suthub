@@ -5,12 +5,12 @@ export default {
       listContent: [],
       headers: [
         {
-          text: "Nome",
+          text: "Name",
           align: "start",
           sortable: false,
           value: "name"
         },
-        { text: "Idiomas", value: "languages" }
+        { text: "Languages", value: "languages" }
       ],
       langSelected: "",
       langNickSelected: "",

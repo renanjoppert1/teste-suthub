@@ -18,7 +18,7 @@ export default {
     headers() {
       return [
         {
-          text: "Nome",
+          text: "Name",
           align: "start",
           sortable: true,
           value: "name"
