@@ -1,0 +1,28 @@
+{
+  "name": "suthub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "start-server": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "apexcharts": "^3.22.2",
+    "core-js": "^3.6.5",
+    "json-server": "^0.16.3",
+    "nuxt": "^2.14.6",
+    "vue-apexcharts": "^1.6.0",
+    "vue-toastification": "^1.7.8",
+    "vue2-google-maps": "^0.10.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "fibers": "^5.0.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^7.1.0"
+  }
+}

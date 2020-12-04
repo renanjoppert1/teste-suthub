@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Renan",
+      "last_name": "Joppert",
+      "email": "renanjoppert@outlook.com",
+      "password": "123456",
+      "hash": "60216AF282D4F0535BC324371711AB532A9D8795D99259624816C1776F3B85AE",
+      "location": "Brasil"
+    }
+  ]
+}
