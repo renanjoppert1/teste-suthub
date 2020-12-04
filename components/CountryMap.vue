@@ -22,12 +22,12 @@ export default {
         this.zoom = 10;
       } else if (to.area < 10000) {
         this.zoom = 11;
-      }else if (to.area < 14000) {
+      } else if (to.area < 14000) {
         this.zoom = 8;
       } else if (to.area < 3000000) {
         this.zoom = 4;
-      }else{
-        this.zoom = 4
+      } else {
+        this.zoom = 4;
       }
       this.countryData = to;
     }
@@ -61,6 +61,9 @@ export default {
 
   .v-sheet.v-card {
     padding: 25px;
+    position: sticky;
+    top: 80px;
+    right: 0px;
   }
 
   .vue-map {
