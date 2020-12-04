@@ -31,7 +31,7 @@ export default {
   <div id="searchTop" v-if="this.$route.path == '/dashboard'">
     <v-text-field
       v-model="search"
-      label="Type hear an America Country to Search"
+      label="Type hear at Americas Country to Search"
       append-icon="mdi-magnify"
       @click:clear="onClear"
       clearable
