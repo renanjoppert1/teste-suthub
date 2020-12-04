@@ -37,7 +37,7 @@ npm i -g json-server
 # serve json-server with hot reload at localhost:3000
 npm run start-server
 
-# serve with hot reload at localhost:81
+# serve with hot reload at localhost:81. PS: You need open new tab on terminal
 $ npm run dev
 
 ```
