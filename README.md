@@ -1,5 +1,5 @@
 # Suthub
-Esta aplicação foi montada para o teste da vaga Frontend na Suthub.
+Esta aplicação foi desenvolvida para o teste da vaga Frontend na Suthub.
 
 Esta aplicação contém as seguintes funcionalidades: 
 * Login na aplicação
